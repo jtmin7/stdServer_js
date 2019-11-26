@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<!--<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta charset="UTF-8" />-->
+		<title> 로그인 테스트 </title>
+	</head>
+    <body>
+        <h1>로그인</h1>
+        <br>
+        <form method="post" action="/html/login">
+            <table>
+                <tr>
+                    <td><label>아이디</label></td>
+                    <td><input type="text" name="id"> </td>
+                </tr>
+                <tr>
+                    <td><label>비밀번호</label></td>
+                    <td><input type="password" name="password"></td>
+                </tr>
+            </table>
+            <input type="submit" value="로그인" name="">
+        </form>
+        <form method="post" action="/html/adduser">
+            <table>
+                <tr>
+                    <td><label>아이디</label></td>
+                    <td><input type="text" name="id"> </td>
+                </tr>
+                <tr>
+                    <td><label>비밀번호</label></td>
+                    <td><input type="password" name="password"></td>
+                </tr>
+                <tr>
+                    <td><label>이름</label></td>
+                    <td><input type="text" name="name"></td>
+                </tr>
+            </table>
+            <input type="submit" value="사용자 추가" name="">
+        </form>
+        <form method="post" action="/html/show">
+
+            <input type="submit" value="JSON 보이기" name="">
+        </form>
+
+        <form method="post" action="/html/listuser">
+            사용자 리스트:
+            <input type="submit" value="조회" name="">
+        </form>
+        <img src='../images/다운로드.jpg' width='20%'>
+        <img src='../images/다운로드2.jpg' width='40%'>
+
+    </body>
+</html>
